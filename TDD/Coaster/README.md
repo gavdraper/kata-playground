@@ -11,9 +11,7 @@ A track is a complete circuit of track pieces, the track is split into secions b
 
 - If no pieces have been added Empty should be true
 - Once a piece has been added it should return false
-- If the first piece is added with an orientation it show throw an exception
 - If any non first piece is added without an orentation it should throw an exception
-- If a piece is added that goes back on itself it should throw an exception
 - If a piece intersets another piece it should throw an exception
 - Once the track joins up then IsComplete should return true
 - If a piece is added to a complete track it should throw an exception
